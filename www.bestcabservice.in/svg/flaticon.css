@@ -1,0 +1,66 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 26/01/2019 05:21
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+       url("Flaticon.woff2") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-call:before { content: "\f100"; }
+.flaticon-smartphone:before { content: "\f101"; }
+.flaticon-message:before { content: "\f102"; }
+.flaticon-email:before { content: "\f103"; }
+.flaticon-message-on-phone:before { content: "\f104"; }
+.flaticon-whatsapp:before { content: "\f105"; }
+.flaticon-placeholder:before { content: "\f106"; }
+.flaticon-sedan-car-model:before { content: "\f107"; }
+.flaticon-frontal-taxi-cab:before { content: "\f108"; }
+.flaticon-destination:before { content: "\f109"; }
+.flaticon-seat:before { content: "\f10a"; }
+.flaticon-knife-fork-and-plate:before { content: "\f10b"; }
+.flaticon-review:before { content: "\f10c"; }
+.flaticon-like:before { content: "\f10d"; }
+.flaticon-destination-1:before { content: "\f10e"; }
+.flaticon-travel-insurance:before { content: "\f10f"; }
+.flaticon-route:before { content: "\f110"; }
+.flaticon-hotel:before { content: "\f111"; }
+.flaticon-classroom:before { content: "\f112"; }
+.flaticon-online-shop:before { content: "\f113"; }
+.flaticon-rupee:before { content: "\f114"; }
+.flaticon-web:before { content: "\f115"; }
+.flaticon-smartphone-1:before { content: "\f116"; }
+.flaticon-shopping:before { content: "\f117"; }
+.flaticon-online-shop-1:before { content: "\f118"; }
+.flaticon-wedding-couple:before { content: "\f119"; }
+.flaticon-employee:before { content: "\f11a"; }
+.flaticon-approve-invoice:before { content: "\f11b"; }
+.flaticon-bus:before { content: "\f11c"; }
+.flaticon-taxi:before { content: "\f11d"; }
+.flaticon-clapperboard:before { content: "\f11e"; }
+.flaticon-wordpress-logo:before { content: "\f11f"; }
+.flaticon-mobile:before { content: "\f120"; }
+.flaticon-customer-relationship-management:before { content: "\f121"; }

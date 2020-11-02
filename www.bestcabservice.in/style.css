@@ -1,0 +1,89 @@
+.follow {background:#f1f6fb; padding:50px 0;}
+.follow h2 {font-size:26px; color:#524e71; text-align:center; font-weight:700;   }
+.follow h3 { font-size:16px; color:#767b8d; font-weight:500; text-align:center;}
+.follow h4 { font-size:16px; color:#000; font-weight:500;  line-height:30px;}
+.follow p { font-size:14px; color:#000; text-align:left; font-weight:400;  }
+.card-body button { background:#1467B1; border:1px solid #FFFFFF; border-radius:5px; color:#FFFFFF; font-size:15px;}
+
+.tab-conten { background:#fff; }
+.tab-content ul { padding-left:0px; margin-left:20px; margin-bottom:0px; }
+.tab-content li { list-style: radio; line-height:35px; padding-left:0px !important; }
+
+
+.fptabs {}
+nav-tabs .nav-link.active {
+    color: #0479ec;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff; text-transform: uppercase; font-weight:bold;
+	
+	}
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+.nav-tabs .nav-link { border:0px; }
+.nav-link.active{ background-color:none; }
+.follow .nav-link { text-transform:uppercase; font-size:14px; font-weight:500; color:#007bff; border:2px solid #6799fc !important; border-bottom:0px !important;  background-color: #none !important; margin:0px 7px 0px 0px; } 
+
+.tab-pane { border-top: 2px solid #6799fc;}
+.accordion h2 { padding-top:0px; text-align: left; font-size:13px;color:#fff !important; }
+.accordion p { padding-top:0px;  }
+.btn { text-align: left; font-size:14px; padding-top:0px; padding-bottom:0px;}
+.btn i { color:#7e93a0;font-size:11px !important; font-weight:200 !important;  }
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+}
+
+.card-body {
+    
+padding:5px 5px 5px 15px;
+}
+
+.card-header {
+    padding: 0 !important;
+    margin-bottom: 0;
+    background-color: #f2f2f2; border:0px; margin:10px;
+	font-size:13px;
+	
+	
+   
+}
+.btn-link {
+    font-weight: 400;
+    color: #0579ec;
+    text-decoration: none; padding-top:0px; padding-bottom:0px;
+	
+}
+.tab-pane { background:#fff !important;  padding:10px;  }
+.tab-pane p { font-size:14px; font-weight:400; color: #000; padding-top:0px;line-height:26px;  }
+.tab-pane li { font-size:14px; font-weight:400; color: #000; padding-top:0px; padding-left:10px; line-height:26px; }
+
+@media screen and (max-width:768px)
+{
+.tab-content ul { padding-left:0px; margin-left:40px; }    
+    
+.card-body p {padding-left:10px; margin-bottom:20px;}
+.follow {background:#f1f6fb; padding:20px 0px;}
+.tab-pane li {padding-left:8px;}
+.tab-content li { line-height:29px;}
+.card-body { padding:0px;}
+.tab-pane { padding:10px;}
+.tab-content li:before { width:5px; height:5px;}
+}
+
+.step {text-align: center;}
+
+
+.modal {  display: none;  position: fixed;   z-index: 1;   padding-top: 100px;  left: 0;  top: 0;  width: 100%;  height: 100%; overflow: auto; background-color: rgb(0,0,0);   background-color: rgba(0,0,0,0.4); }
+.modal-content {  background-color: #fefefe;  margin:left;  padding: 20px;  border: 1px solid #888;  width: 60%; line-height:30px;}
+.close {  color: #aaaaaa;  float: right;  font-size: 28px;  font-weight: bold;}
+.close:hover, .close:focus { color: #000; text-decoration: none;  cursor: pointer;}
